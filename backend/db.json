@@ -1,19 +1,40 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Caneta BIC Preta",
-            "price": 5.89
-        },
-        {
-            "id": 2,
-            "name": "Notebook Acer",
-            "price": 6999.99
-        },
-        {
-            "id": 3,
-            "name": "Samsung S20+",
-            "price": 3599.99
-        } 
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "NX.AYDAL.005",
+      "price": 3500.99,
+      "plant": "276A",
+      "customer": "ACER",
+      "prodType": "Notebook"
+    },
+    {
+      "id": 2,
+      "name": "90AI0091-M00190",
+      "price": 6999.99,
+      "plant": "271I",
+      "customer": "ASUS",
+      "prodType": "Mobile"
+    }
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "name": "Inatel",
+      "projects": "KiosK",
+      "city": "São Paulo"
+    },
+    {
+      "id": 2,
+      "name": "Eldorado",
+      "projects": "KiosK",
+      "city": "Campinas"
+    },
+    {
+      "name": "Test",
+      "city": "FakeCity",
+      "projects": "FakeProject",
+      "id": 3
+    }
+  ]
 }
