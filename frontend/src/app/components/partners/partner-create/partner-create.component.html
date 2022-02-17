@@ -1,0 +1,23 @@
+
+<mat-card>
+    <mat-card-title>New Partner</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Name" [(ngModel)]="partner.name" name="Name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="City" [(ngModel)]="partner.city" name="City">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Projects" [(ngModel)]="partner.projects" name="Projects">
+        </mat-form-field>
+    </form>
+
+<button mat-raised-button class="save" (click)="criatePartner()">
+    Save
+</button>
+
+<button mat-raised-button class="cancel" routerLink="/partners">
+    Cancel
+</button>
+</mat-card>
