@@ -1,27 +1,35 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "NX.AYDAL.005",
-      "price": 3500.99,
-      "plant": "276A",
-      "customer": "ACER",
-      "prodType": "Notebook"
-    },
-    {
       "id": 2,
       "name": "90AI0091-M00190",
-      "price": 6999.99,
-      "plant": "271I",
+      "price": "8999",
+      "plant": "271A",
       "customer": "ASUS",
       "prodType": "Mobile"
+    },
+    {
+      "name": "Antena GDL5586",
+      "price": "4999.99",
+      "plant": "451U",
+      "prodType": "ONT",
+      "customer": "Huawey",
+      "id": 3
+    },
+    {
+      "name": "Monitor Gamer",
+      "price": "899.99",
+      "plant": "276D",
+      "prodType": "Monitor",
+      "customer": "ACER",
+      "id": 5
     }
   ],
   "partners": [
     {
       "id": 1,
       "name": "Inatel",
-      "projects": "KiosK",
+      "projects": "KiosK | Vital Doc",
       "city": "São Paulo"
     },
     {
@@ -35,6 +43,12 @@
       "city": "FakeCity",
       "projects": "FakeProject",
       "id": 3
+    },
+    {
+      "name": "Hospital Albert Einstein",
+      "city": "São Paulo",
+      "projects": "Algoritmo para detecção de fraturas em Raio-X",
+      "id": 4
     }
   ]
 }
